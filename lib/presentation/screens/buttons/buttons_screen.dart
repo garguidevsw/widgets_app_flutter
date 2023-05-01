@@ -11,7 +11,7 @@ class ButtonsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Buttons Screen'),
       ),
-      body: _ButtonsView(),
+      body: const _ButtonsView(),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.arrow_back_ios_new_outlined),
         onPressed: () {
@@ -58,7 +58,7 @@ class _ButtonsView extends StatelessWidget {
                 onPressed: () {},
                 icon: const Icon(Icons.account_box_outlined),
                 label: const Text('Text Icon')),
-            CustomButton(),
+            const CustomButton(),
             IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.app_registration_outlined)),

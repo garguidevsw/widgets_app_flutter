@@ -51,4 +51,16 @@ const appMenuItems = <MenuItem>[
     link: '/ui-control',
     icon: Icons.check_box_outline_blank_rounded,
   ),
+  MenuItem(
+    title: 'Tutorial',
+    subTitle: 'Introducción a la App',
+    link: '/tutorial',
+    icon: Icons.accessible_forward,
+  ),
+  MenuItem(
+    title: 'InfiniteScroll',
+    subTitle: 'Listas infinitas y pull refresh',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded,
+  ),
 ];
